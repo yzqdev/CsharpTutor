@@ -17,7 +17,7 @@ namespace CalcDate
             Console.Clear();
             while (true)
             {
-                startx:
+            startx:
                 string s;
                 StreamReader sr = new StreamReader(@"future.txt");
                 timeNow = System.DateTime.Parse(s = sr.ReadLine());
