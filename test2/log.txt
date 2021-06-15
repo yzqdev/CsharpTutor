@@ -40,3 +40,11 @@
 2021-06-15 17:50:05.392 +08:00 [INF] Applying upgrade step Finalize upgrade
 2021-06-15 17:50:05.394 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
 2021-06-15 17:50:05.395 +08:00 [INF] Upgrade has completed. Please review any changes.
+2021-06-15 19:31:45.444 +08:00 [INF] Loaded 2 extensions
+2021-06-15 19:31:45.683 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-06-15 19:31:54.964 +08:00 [INF] Loaded 2 extensions
+2021-06-15 19:31:55.130 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-06-15 19:31:56.815 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-15 19:31:56.819 +08:00 [INF] Setting entrypoint to only project in solution: C:\Users\yzqde\source\repos\csharptutor\test2\test2.csproj
+2021-06-15 19:31:56.929 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-06-15 19:32:09.764 +08:00 [INF] Saving upgrade progress file at C:\Users\yzqde\source\repos\csharptutor\test2\.upgrade-assistant

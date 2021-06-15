@@ -1,0 +1,50 @@
+2021-06-15 19:32:26.786 +08:00 [INF] Loaded 2 extensions
+2021-06-15 19:32:26.946 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-06-15 19:32:28.137 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-15 19:32:28.141 +08:00 [INF] Setting entrypoint to only project in solution: C:\Users\yzqde\source\repos\csharptutor\testForm3\testForm3.csproj
+2021-06-15 19:32:28.149 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-15 19:32:28.207 +08:00 [INF] Initializing upgrade step Back up project
+2021-06-15 19:32:29.072 +08:00 [INF] Applying upgrade step Back up project
+2021-06-15 19:32:29.730 +08:00 [INF] Backing up C:\Users\yzqde\source\repos\csharptutor\testForm3 to C:\Users\yzqde\source\repos\csharptutor\testForm3.backup
+2021-06-15 19:32:29.743 +08:00 [WRN] Could not copy file C:\Users\yzqde\source\repos\csharptutor\testForm3\log.txt due to 'The process cannot access the file 'C:\Users\yzqde\source\repos\csharptutor\testForm3\log.txt' because it is being used by another process.'
+2021-06-15 19:32:29.761 +08:00 [INF] Project backed up to C:\Users\yzqde\source\repos\csharptutor\testForm3.backup
+2021-06-15 19:32:29.762 +08:00 [INF] Upgrade step Back up project applied successfully
+2021-06-15 19:32:30.002 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-15 19:32:30.152 +08:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-06-15 19:32:30.155 +08:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-06-15 19:32:30.567 +08:00 [INF] [dotnet] C:\Users\yzqde\source\repos\csharptutor\testForm3\testForm3.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-06-15 19:32:33.894 +08:00 [INF] [dotnet] Conversion complete!
+2021-06-15 19:32:34.139 +08:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-06-15 19:32:35.494 +08:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-06-15 19:32:35.495 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-15 19:32:38.096 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-15 19:32:38.101 +08:00 [INF] No package updates needed
+2021-06-15 19:32:38.103 +08:00 [INF] Initializing upgrade step Update TFM
+2021-06-15 19:32:38.109 +08:00 [INF] TFM needs updated to net5.0-windows
+2021-06-15 19:32:38.117 +08:00 [INF] Applying upgrade step Update TFM
+2021-06-15 19:32:39.754 +08:00 [INF] Updated TFM to net5.0-windows
+2021-06-15 19:32:39.755 +08:00 [INF] Upgrade step Update TFM applied successfully
+2021-06-15 19:32:39.757 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-15 19:32:41.030 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-15 19:32:41.318 +08:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-06-15 19:32:41.321 +08:00 [INF] Packages to be added: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-06-15 19:32:41.332 +08:00 [INF] Applying upgrade step Update NuGet Packages
+2021-06-15 19:32:41.335 +08:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-06-15 19:32:43.193 +08:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-06-15 19:32:43.220 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-15 19:32:43.287 +08:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-06-15 19:32:45.041 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-15 19:32:45.131 +08:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-06-15 19:32:45.133 +08:00 [INF] Initializing upgrade step Add template files
+2021-06-15 19:32:45.144 +08:00 [INF] 0 expected template items needed
+2021-06-15 19:32:45.146 +08:00 [INF] Initializing upgrade step Upgrade app config files
+2021-06-15 19:32:45.156 +08:00 [INF] Found 0 app settings for upgrade: 
+2021-06-15 19:32:45.158 +08:00 [INF] Found 0 connection strings for upgrade: 
+2021-06-15 19:32:45.163 +08:00 [INF] Initializing upgrade step Update source code
+2021-06-15 19:32:46.301 +08:00 [INF] Initializing upgrade step Move to next project
+2021-06-15 19:32:46.347 +08:00 [INF] Applying upgrade step Move to next project
+2021-06-15 19:32:46.348 +08:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-15 19:32:46.355 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-06-15 19:32:46.359 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-06-15 19:32:46.360 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-06-15 19:32:46.361 +08:00 [INF] Upgrade has completed. Please review any changes.
