@@ -65,7 +65,7 @@ namespace CalcDate
                 }
 
                 string s = "";
-                while ((s = sr.ReadLine()) != null)
+                while ((s = Console.ReadLine()) != null)
                 {
                     int i = 0;
                     string[] strArray = s.Split(' ');

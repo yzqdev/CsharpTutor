@@ -16,7 +16,7 @@ namespace _8.文件操作
 
         public void creattxt()
         {
-            FileStream fs = File.Create("D:\\test1.txt");
+            FileStream fs = File.Create("C:\\test1.txt");
         }
     }
 }
