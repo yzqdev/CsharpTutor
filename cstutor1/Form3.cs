@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 namespace csTest1
@@ -88,7 +88,7 @@ namespace csTest1
             }
             catch
             {
-                Process.Start("start");
+                Process.Start("notepad");
             }
             finally
             {
