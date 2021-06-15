@@ -1,0 +1,42 @@
+2021-06-15 17:49:45.216 +08:00 [INF] Loaded 2 extensions
+2021-06-15 17:49:45.375 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-06-15 17:49:46.539 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-15 17:49:46.544 +08:00 [INF] Setting entrypoint to only project in solution: C:\Users\yzqde\source\repos\csharptutor\test2\test2.csproj
+2021-06-15 17:49:46.553 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-15 17:49:46.609 +08:00 [INF] Initializing upgrade step Back up project
+2021-06-15 17:49:47.458 +08:00 [INF] Applying upgrade step Back up project
+2021-06-15 17:49:48.984 +08:00 [INF] Backing up C:\Users\yzqde\source\repos\csharptutor\test2 to C:\Users\yzqde\source\repos\csharptutor\test2.backup
+2021-06-15 17:49:48.990 +08:00 [WRN] Could not copy file C:\Users\yzqde\source\repos\csharptutor\test2\log.txt due to 'The process cannot access the file 'C:\Users\yzqde\source\repos\csharptutor\test2\log.txt' because it is being used by another process.'
+2021-06-15 17:49:49.009 +08:00 [INF] Project backed up to C:\Users\yzqde\source\repos\csharptutor\test2.backup
+2021-06-15 17:49:49.011 +08:00 [INF] Upgrade step Back up project applied successfully
+2021-06-15 17:49:50.682 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-15 17:49:51.363 +08:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-06-15 17:49:51.365 +08:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-06-15 17:49:51.731 +08:00 [INF] [dotnet] C:\Users\yzqde\source\repos\csharptutor\test2\test2.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-06-15 17:49:55.714 +08:00 [INF] [dotnet] Conversion complete!
+2021-06-15 17:49:55.921 +08:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-06-15 17:49:57.152 +08:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-06-15 17:50:00.261 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-15 17:50:01.446 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-15 17:50:01.451 +08:00 [INF] No package updates needed
+2021-06-15 17:50:01.453 +08:00 [INF] Initializing upgrade step Update TFM
+2021-06-15 17:50:01.459 +08:00 [INF] TFM needs updated to net5.0
+2021-06-15 17:50:01.468 +08:00 [INF] Applying upgrade step Update TFM
+2021-06-15 17:50:03.005 +08:00 [INF] Updated TFM to net5.0
+2021-06-15 17:50:03.007 +08:00 [INF] Upgrade step Update TFM applied successfully
+2021-06-15 17:50:03.008 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-15 17:50:04.183 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-15 17:50:04.185 +08:00 [INF] No package updates needed
+2021-06-15 17:50:04.186 +08:00 [INF] Initializing upgrade step Add template files
+2021-06-15 17:50:04.193 +08:00 [INF] 0 expected template items needed
+2021-06-15 17:50:04.194 +08:00 [INF] Initializing upgrade step Upgrade app config files
+2021-06-15 17:50:04.202 +08:00 [INF] Found 0 app settings for upgrade: 
+2021-06-15 17:50:04.205 +08:00 [INF] Found 0 connection strings for upgrade: 
+2021-06-15 17:50:04.209 +08:00 [INF] Initializing upgrade step Update source code
+2021-06-15 17:50:05.379 +08:00 [INF] Initializing upgrade step Move to next project
+2021-06-15 17:50:05.387 +08:00 [INF] Applying upgrade step Move to next project
+2021-06-15 17:50:05.388 +08:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-15 17:50:05.391 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-06-15 17:50:05.392 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-06-15 17:50:05.394 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-06-15 17:50:05.395 +08:00 [INF] Upgrade has completed. Please review any changes.
