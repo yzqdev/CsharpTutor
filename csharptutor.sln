@@ -5,41 +5,41 @@ VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcDate", "CalcDate\CalcDate.csproj", "{FDDF053B-9709-411C-AFE1-C3F774CE468F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTutor", "FileTutor\FileTutor.csproj", "{B4AD720D-77D7-4AB2-927F-4E4762C9E194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTutor", "FileTutor\FileTutor.csproj", "{B4AD720D-77D7-4AB2-927F-4E4762C9E194}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutor1", "Tutor1\Tutor1.csproj", "{C892FA2C-4B83-4D87-A0A6-548506B57445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test1", "test1\test1.csproj", "{110928B3-EBCE-4ECA-A982-9F7BAE08238A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test1", "test1\test1.csproj", "{110928B3-EBCE-4ECA-A982-9F7BAE08238A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{606AD3F6-FDF2-4572-B8BA-283DD9A1D27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{606AD3F6-FDF2-4572-B8BA-283DD9A1D27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2", "test2\test2.csproj", "{6EE0AB3F-3499-4509-A904-B82810B8748A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test2", "test2\test2.csproj", "{6EE0AB3F-3499-4509-A904-B82810B8748A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{FEA2D391-F214-4238-99C1-DD8715FACCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{FEA2D391-F214-4238-99C1-DD8715FACCEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testForm3", "testForm3\testForm3.csproj", "{FD582CB6-EDFC-4BA3-8458-E84D75C6DF39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testForm3", "testForm3\testForm3.csproj", "{FD582CB6-EDFC-4BA3-8458-E84D75C6DF39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datatype", "datatype\datatype.csproj", "{7459FBC6-ED20-41A7-B2D6-A7FD7694B482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "datatype", "datatype\datatype.csproj", "{7459FBC6-ED20-41A7-B2D6-A7FD7694B482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormAdvanced", "FormAdvanced\FormAdvanced.csproj", "{08CE21F5-6E9B-424C-8FDB-D538671A9B89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormAdvanced", "FormAdvanced\FormAdvanced.csproj", "{08CE21F5-6E9B-424C-8FDB-D538671A9B89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms", "Forms\Forms.csproj", "{14881572-DDCF-44BF-9105-BAD306CC0812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forms", "Forms\Forms.csproj", "{14881572-DDCF-44BF-9105-BAD306CC0812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOperate", "FileOperate\FileOperate.csproj", "{BE4675F6-57D1-4A15-A97C-A0AE5B334704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileOperate", "FileOperate\FileOperate.csproj", "{BE4675F6-57D1-4A15-A97C-A0AE5B334704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowControl", "FlowControl\FlowControl.csproj", "{C490549A-FAB7-46F6-82EF-BABC3BE32253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowControl", "FlowControl\FlowControl.csproj", "{C490549A-FAB7-46F6-82EF-BABC3BE32253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cstutor1", "cstutor1\cstutor1.csproj", "{3A8F4376-024A-41FA-96B3-9D7C385B2270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cstutor1", "cstutor1\cstutor1.csproj", "{3A8F4376-024A-41FA-96B3-9D7C385B2270}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doyoulikeme", "doyoulikeme\Doyoulikeme.csproj", "{A3533065-169D-4A4A-B50B-CA7392F320B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csform1", "csform2\csform1.csproj", "{22917F38-D4B2-4887-8E11-8834394D3E81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csform1", "csform2\csform1.csproj", "{22917F38-D4B2-4887-8E11-8834394D3E81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "记事本", "FullNotepad\记事本.csproj", "{856C3C5F-9477-4E5E-AB3D-B10011A23950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "notepad", "FullNotepad\notepad.csproj", "{856C3C5F-9477-4E5E-AB3D-B10011A23950}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyForm", "MyForm\MyForm.csproj", "{696B2799-CFF4-4633-9100-B9DC2D98BACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "calculator\Calc.csproj", "{59E36B20-30D2-4E1A-A74A-FCFE02A6E663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calc", "calculator\Calc.csproj", "{59E36B20-30D2-4E1A-A74A-FCFE02A6E663}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
