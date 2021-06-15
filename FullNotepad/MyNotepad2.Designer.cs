@@ -90,7 +90,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTxt.ContextMenuStrip = this.contextMenuStrip1;
             this.richTxt.EnableAutoDragDrop = true;
-            this.richTxt.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTxt.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTxt.Location = new System.Drawing.Point(0, 33);
             this.richTxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.richTxt.Name = "richTxt";
@@ -110,55 +110,54 @@
             this.Del1MenuItem,
             this.SelectAll1MenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(157, 196);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(130, 148);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // Undo1MenuItem
             // 
             this.Undo1MenuItem.Name = "Undo1MenuItem";
-            this.Undo1MenuItem.Size = new System.Drawing.Size(156, 32);
+            this.Undo1MenuItem.Size = new System.Drawing.Size(129, 24);
             this.Undo1MenuItem.Text = "撤消(&U)";
             this.Undo1MenuItem.Click += new System.EventHandler(this.Undo1MenuItem_Click);
             // 
             // Cut1MenuItem
             // 
             this.Cut1MenuItem.Name = "Cut1MenuItem";
-            this.Cut1MenuItem.Size = new System.Drawing.Size(156, 32);
+            this.Cut1MenuItem.Size = new System.Drawing.Size(129, 24);
             this.Cut1MenuItem.Text = "剪切(&T)";
             this.Cut1MenuItem.Click += new System.EventHandler(this.Cut1MenuItem_Click);
             // 
             // Copy1MenuItem
             // 
             this.Copy1MenuItem.Name = "Copy1MenuItem";
-            this.Copy1MenuItem.Size = new System.Drawing.Size(156, 32);
+            this.Copy1MenuItem.Size = new System.Drawing.Size(129, 24);
             this.Copy1MenuItem.Text = "复制(&C)";
             this.Copy1MenuItem.Click += new System.EventHandler(this.Copy1MenuItem_Click);
             // 
             // Paste1MenuItem
             // 
             this.Paste1MenuItem.Name = "Paste1MenuItem";
-            this.Paste1MenuItem.Size = new System.Drawing.Size(156, 32);
+            this.Paste1MenuItem.Size = new System.Drawing.Size(129, 24);
             this.Paste1MenuItem.Text = "粘贴(&P)";
             this.Paste1MenuItem.Click += new System.EventHandler(this.Paste1MenuItem_Click);
             // 
             // Del1MenuItem
             // 
             this.Del1MenuItem.Name = "Del1MenuItem";
-            this.Del1MenuItem.Size = new System.Drawing.Size(156, 32);
+            this.Del1MenuItem.Size = new System.Drawing.Size(129, 24);
             this.Del1MenuItem.Text = "删除(&D)";
             this.Del1MenuItem.Click += new System.EventHandler(this.Del1MenuItem_Click);
             // 
             // SelectAll1MenuItem
             // 
             this.SelectAll1MenuItem.Name = "SelectAll1MenuItem";
-            this.SelectAll1MenuItem.Size = new System.Drawing.Size(156, 32);
+            this.SelectAll1MenuItem.Size = new System.Drawing.Size(129, 24);
             this.SelectAll1MenuItem.Text = "全选(&A)";
             this.SelectAll1MenuItem.Click += new System.EventHandler(this.SelectAll1MenuItem_Click);
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.menuStrip1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.文件FToolStripMenuItem,
@@ -169,7 +168,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(678, 37);
+            this.menuStrip1.Size = new System.Drawing.Size(678, 36);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -183,16 +182,16 @@
             this.PageMenuItem,
             this.PrintMenuItem,
             this.ExitMenuItem});
-            this.文件FToolStripMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.文件FToolStripMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.文件FToolStripMenuItem.Name = "文件FToolStripMenuItem";
-            this.文件FToolStripMenuItem.Size = new System.Drawing.Size(84, 29);
+            this.文件FToolStripMenuItem.Size = new System.Drawing.Size(82, 28);
             this.文件FToolStripMenuItem.Text = "文件(&F)";
             // 
             // NewMenuItem
             // 
             this.NewMenuItem.Name = "NewMenuItem";
             this.NewMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.NewMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.NewMenuItem.Size = new System.Drawing.Size(238, 28);
             this.NewMenuItem.Text = "新建(&N)";
             this.NewMenuItem.Click += new System.EventHandler(this.NewMenuItem_Click);
             // 
@@ -200,7 +199,7 @@
             // 
             this.OpenMenuItem.Name = "OpenMenuItem";
             this.OpenMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.OpenMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.OpenMenuItem.Size = new System.Drawing.Size(238, 28);
             this.OpenMenuItem.Text = "打开(&O)...";
             this.OpenMenuItem.Click += new System.EventHandler(this.OpenMenuItem_Click);
             // 
@@ -208,21 +207,21 @@
             // 
             this.SaveMenuItem.Name = "SaveMenuItem";
             this.SaveMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.SaveMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.SaveMenuItem.Size = new System.Drawing.Size(238, 28);
             this.SaveMenuItem.Text = "保存(&S)";
             this.SaveMenuItem.Click += new System.EventHandler(this.SaveMenuItem_Click);
             // 
             // AddsaveMenuItem
             // 
             this.AddsaveMenuItem.Name = "AddsaveMenuItem";
-            this.AddsaveMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.AddsaveMenuItem.Size = new System.Drawing.Size(238, 28);
             this.AddsaveMenuItem.Text = "另存为(&A)...";
             this.AddsaveMenuItem.Click += new System.EventHandler(this.AddsaveMenuItem_Click);
             // 
             // PageMenuItem
             // 
             this.PageMenuItem.Name = "PageMenuItem";
-            this.PageMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.PageMenuItem.Size = new System.Drawing.Size(238, 28);
             this.PageMenuItem.Text = "页面设置(&U)...";
             this.PageMenuItem.Click += new System.EventHandler(this.PageMenuItem_Click);
             // 
@@ -230,14 +229,14 @@
             // 
             this.PrintMenuItem.Name = "PrintMenuItem";
             this.PrintMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.PrintMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.PrintMenuItem.Size = new System.Drawing.Size(238, 28);
             this.PrintMenuItem.Text = "打印(&P)...";
             this.PrintMenuItem.Click += new System.EventHandler(this.PrintMenuItem_Click);
             // 
             // ExitMenuItem
             // 
             this.ExitMenuItem.Name = "ExitMenuItem";
-            this.ExitMenuItem.Size = new System.Drawing.Size(243, 30);
+            this.ExitMenuItem.Size = new System.Drawing.Size(238, 28);
             this.ExitMenuItem.Text = "退出(&X)";
             this.ExitMenuItem.Click += new System.EventHandler(this.ExitMenuItem_Click);
             // 
@@ -255,9 +254,9 @@
             this.GotoMenuItem,
             this.SelectAllMenuItem,
             this.DateTimeMenuItem});
-            this.EditMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.EditMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.EditMenuItem.Name = "EditMenuItem";
-            this.EditMenuItem.Size = new System.Drawing.Size(84, 29);
+            this.EditMenuItem.Size = new System.Drawing.Size(82, 28);
             this.EditMenuItem.Text = "编辑(&E)";
             this.EditMenuItem.DropDownOpened += new System.EventHandler(this.EditMenuItem_DropDownOpened);
             // 
@@ -265,7 +264,7 @@
             // 
             this.UndoMenuItem.Name = "UndoMenuItem";
             this.UndoMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.UndoMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.UndoMenuItem.Size = new System.Drawing.Size(242, 28);
             this.UndoMenuItem.Text = "撤消(&U)";
             this.UndoMenuItem.Click += new System.EventHandler(this.UndoMenuItem_Click);
             // 
@@ -273,7 +272,7 @@
             // 
             this.CutMenuItem.Name = "CutMenuItem";
             this.CutMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.CutMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.CutMenuItem.Size = new System.Drawing.Size(242, 28);
             this.CutMenuItem.Text = "剪切(&T)";
             this.CutMenuItem.Click += new System.EventHandler(this.CutMenuItem_Click);
             // 
@@ -281,7 +280,7 @@
             // 
             this.CopyMenuItem.Name = "CopyMenuItem";
             this.CopyMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.CopyMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.CopyMenuItem.Size = new System.Drawing.Size(242, 28);
             this.CopyMenuItem.Text = "复制(&C)";
             this.CopyMenuItem.Click += new System.EventHandler(this.CopyMenuItem_Click);
             // 
@@ -289,7 +288,7 @@
             // 
             this.PasteMenuItem.Name = "PasteMenuItem";
             this.PasteMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.PasteMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.PasteMenuItem.Size = new System.Drawing.Size(242, 28);
             this.PasteMenuItem.Text = "粘贴(&P)";
             this.PasteMenuItem.Click += new System.EventHandler(this.PasteMenuItem_Click);
             // 
@@ -297,7 +296,7 @@
             // 
             this.DelMenuItem.Name = "DelMenuItem";
             this.DelMenuItem.ShortcutKeyDisplayString = "Del";
-            this.DelMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.DelMenuItem.Size = new System.Drawing.Size(242, 28);
             this.DelMenuItem.Text = "删除(&L)";
             this.DelMenuItem.Click += new System.EventHandler(this.DelMenuItem_Click);
             // 
@@ -305,7 +304,7 @@
             // 
             this.FindMenuItem.Name = "FindMenuItem";
             this.FindMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.FindMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.FindMenuItem.Size = new System.Drawing.Size(242, 28);
             this.FindMenuItem.Text = "查找(&F)...";
             this.FindMenuItem.Click += new System.EventHandler(this.FindMenuItem_Click);
             // 
@@ -313,7 +312,7 @@
             // 
             this.FindNextItem.Name = "FindNextItem";
             this.FindNextItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.FindNextItem.Size = new System.Drawing.Size(245, 30);
+            this.FindNextItem.Size = new System.Drawing.Size(242, 28);
             this.FindNextItem.Text = "查找下一个(&N)";
             this.FindNextItem.Click += new System.EventHandler(this.FindNextItem_Click);
             // 
@@ -321,7 +320,7 @@
             // 
             this.ReplaceMenuItem.Name = "ReplaceMenuItem";
             this.ReplaceMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.ReplaceMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.ReplaceMenuItem.Size = new System.Drawing.Size(242, 28);
             this.ReplaceMenuItem.Text = "替换(&R)";
             this.ReplaceMenuItem.Click += new System.EventHandler(this.ReplaceMenuItem_Click);
             // 
@@ -329,7 +328,7 @@
             // 
             this.GotoMenuItem.Name = "GotoMenuItem";
             this.GotoMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
-            this.GotoMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.GotoMenuItem.Size = new System.Drawing.Size(242, 28);
             this.GotoMenuItem.Text = "转到(&G)";
             this.GotoMenuItem.Click += new System.EventHandler(this.GotoMenuItem_Click);
             // 
@@ -337,7 +336,7 @@
             // 
             this.SelectAllMenuItem.Name = "SelectAllMenuItem";
             this.SelectAllMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.SelectAllMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.SelectAllMenuItem.Size = new System.Drawing.Size(242, 28);
             this.SelectAllMenuItem.Text = "全选(&A)";
             this.SelectAllMenuItem.Click += new System.EventHandler(this.SelectAllMenuItem_Click);
             // 
@@ -345,7 +344,7 @@
             // 
             this.DateTimeMenuItem.Name = "DateTimeMenuItem";
             this.DateTimeMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.DateTimeMenuItem.Size = new System.Drawing.Size(245, 30);
+            this.DateTimeMenuItem.Size = new System.Drawing.Size(242, 28);
             this.DateTimeMenuItem.Text = "日期/时间(&D)";
             this.DateTimeMenuItem.Click += new System.EventHandler(this.DateTimeMenuItem_Click);
             // 
@@ -354,9 +353,9 @@
             this.FormMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.NewLineMenuItem,
             this.FontMenuItem});
-            this.FormMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.FormMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormMenuItem.Name = "FormMenuItem";
-            this.FormMenuItem.Size = new System.Drawing.Size(89, 29);
+            this.FormMenuItem.Size = new System.Drawing.Size(87, 28);
             this.FormMenuItem.Text = "格式(&O)";
             // 
             // NewLineMenuItem
@@ -364,7 +363,7 @@
             this.NewLineMenuItem.Checked = true;
             this.NewLineMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.NewLineMenuItem.Name = "NewLineMenuItem";
-            this.NewLineMenuItem.Size = new System.Drawing.Size(197, 30);
+            this.NewLineMenuItem.Size = new System.Drawing.Size(196, 28);
             this.NewLineMenuItem.Text = "自动换行(&W)";
             this.NewLineMenuItem.CheckedChanged += new System.EventHandler(this.NewLineMenuItem_CheckedChanged);
             this.NewLineMenuItem.Click += new System.EventHandler(this.NewLineMenuItem_Click);
@@ -372,7 +371,7 @@
             // FontMenuItem
             // 
             this.FontMenuItem.Name = "FontMenuItem";
-            this.FontMenuItem.Size = new System.Drawing.Size(197, 30);
+            this.FontMenuItem.Size = new System.Drawing.Size(196, 28);
             this.FontMenuItem.Text = "字体(&F)...";
             this.FontMenuItem.Click += new System.EventHandler(this.FontMenuItem_Click);
             // 
@@ -380,16 +379,16 @@
             // 
             this.ViewMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.StatusMenuItem});
-            this.ViewMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ViewMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ViewMenuItem.Name = "ViewMenuItem";
-            this.ViewMenuItem.Size = new System.Drawing.Size(87, 29);
+            this.ViewMenuItem.Size = new System.Drawing.Size(84, 28);
             this.ViewMenuItem.Text = "查看(&V)";
             this.ViewMenuItem.DropDownOpened += new System.EventHandler(this.ViewMenuItem_DropDownOpened);
             // 
             // StatusMenuItem
             // 
             this.StatusMenuItem.Name = "StatusMenuItem";
-            this.StatusMenuItem.Size = new System.Drawing.Size(170, 30);
+            this.StatusMenuItem.Size = new System.Drawing.Size(170, 28);
             this.StatusMenuItem.Text = "状态栏(&S)";
             this.StatusMenuItem.Click += new System.EventHandler(this.StatusMenuItem_Click);
             // 
@@ -398,21 +397,21 @@
             this.HelpMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TopicsMenuItem,
             this.AboutMenuItem});
-            this.HelpMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HelpMenuItem.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HelpMenuItem.Name = "HelpMenuItem";
-            this.HelpMenuItem.Size = new System.Drawing.Size(89, 29);
+            this.HelpMenuItem.Size = new System.Drawing.Size(86, 28);
             this.HelpMenuItem.Text = "帮助(&H)";
             // 
             // TopicsMenuItem
             // 
             this.TopicsMenuItem.Name = "TopicsMenuItem";
-            this.TopicsMenuItem.Size = new System.Drawing.Size(210, 30);
+            this.TopicsMenuItem.Size = new System.Drawing.Size(209, 28);
             this.TopicsMenuItem.Text = "帮助主题(&H)";
             // 
             // AboutMenuItem
             // 
             this.AboutMenuItem.Name = "AboutMenuItem";
-            this.AboutMenuItem.Size = new System.Drawing.Size(210, 30);
+            this.AboutMenuItem.Size = new System.Drawing.Size(209, 28);
             this.AboutMenuItem.Text = "关于记事本(&A)";
             this.AboutMenuItem.Click += new System.EventHandler(this.AboutMenuItem_Click);
             // 
@@ -441,7 +440,7 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 23);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 22);
             // 
             // statusStrip2
             // 
@@ -449,9 +448,9 @@
             this.statusStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel2});
-            this.statusStrip2.Location = new System.Drawing.Point(0, 395);
+            this.statusStrip2.Location = new System.Drawing.Point(0, 402);
             this.statusStrip2.Name = "statusStrip2";
-            this.statusStrip2.Size = new System.Drawing.Size(678, 33);
+            this.statusStrip2.Size = new System.Drawing.Size(678, 26);
             this.statusStrip2.TabIndex = 3;
             this.statusStrip2.Text = "statusStrip2";
             // 
@@ -459,7 +458,7 @@
             // 
             this.toolStripStatusLabel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(52, 28);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(39, 20);
             this.toolStripStatusLabel2.Text = "就绪";
             // 
             // MyNotepad2
@@ -471,7 +470,7 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.richTxt);
-            this.Font = new System.Drawing.Font("微软雅黑", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("微软雅黑", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
