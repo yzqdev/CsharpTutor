@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
 
 namespace CalcDate
 {
     /// <summary>
     /// 人
     /// </summary>
-
     public class People
     {
         private string name;
