@@ -16,7 +16,7 @@ namespace Tutor1
         static string path = null;
         static ArrayList temp = new ArrayList();
 
-        static void Main(string[] args)
+        static void ArrTest(string[] args)
         {
             ArrayList arr = new ArrayList();
 
@@ -261,7 +261,7 @@ namespace Tutor1
         {
             object[] obja = new object[6];
             obja[0] = new ClassA();
-            obja[1] = new ClassB();
+            
             obja[2] = "hello";
             obja[3] = 123;
             obja[4] = 123.4;

@@ -25,10 +25,12 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.TopMost = true;
             this.Size = new Size(550, 400);
             button6.Location = new Point(13, 290);
             button7.Location = new Point(121, 290);

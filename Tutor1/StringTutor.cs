@@ -15,6 +15,7 @@ namespace Tutor1
             string sayHello = hello.Replace("hello", "nemo");
             Console.WriteLine(sayHello);
             Console.WriteLine(sayHello.ToUpper());
+            Console.ReadKey();
         }
 
         public void searchString()

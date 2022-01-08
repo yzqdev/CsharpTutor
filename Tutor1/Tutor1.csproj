@@ -53,8 +53,5 @@
     <Compile Include="StringTutor.cs" />
     <Compile Include="TriangleTutor.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
