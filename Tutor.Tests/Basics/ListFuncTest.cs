@@ -65,5 +65,59 @@ namespace Tutor.Tests.Basics
             //count 表示这个集合中实际包含的元素的个数
             //capcity 表示这个集合中可以包含的元素的个数
         }
+        [Test]
+        public void GenericList()
+        {
+            //创建泛型集合对象
+            List<int> list = new List<int>();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+
+            list.AddRange(new int[] { 1, 2, 3, 4, 5, 6 });
+            list.AddRange(list);
+
+            //List泛型集合可以转换为数组
+            //int[] nums = list.ToArray();
+
+            //List<string> listStr = new List<string>();
+
+            //string[] str = listStr.ToArray();
+
+
+            //char[] chs = new char[] { 'c', 'b', 'a' };
+            //List<char> listChar = chs.ToList();
+            //for (int i = 0; i < listChar.Count; i++)
+            //{
+            //    Console.WriteLine(listChar[i]);
+            //}
+
+            ////   List<int> listTwo = nums.ToList();
+
+
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    Console.WriteLine(list[i]);
+            //}
+        }
+        [Test]
+        public void DictTest()
+        {
+            Dictionary<int, string> dic = new Dictionary<int, string>();
+            dic.Add(1, "张三");
+            dic.Add(2, "李四");
+            dic.Add(3, "王五");
+            dic[1] = "新来的";
+            foreach (KeyValuePair<int, string> kv in dic)
+            {
+                Console.WriteLine("{0}---{1}", kv.Key, kv.Value);
+            }
+
+            //foreach (var item in dic.Keys)
+            //{
+            //    Console.WriteLine("{0}---{1}",item,dic[item]);
+            //}
+             
+        }
     }
 }
