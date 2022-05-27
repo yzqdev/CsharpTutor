@@ -28,7 +28,7 @@ namespace Tutor.Tests.Design
         /// <returns></returns>
         public static NoteBook GetNoteBook(string brand)
         {
-            NoteBook nb = null;
+            NoteBook? nb = null;
             switch (brand)
             {
                 case "Lenovo":
