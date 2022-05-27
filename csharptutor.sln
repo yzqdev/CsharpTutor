@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutor.Tests", "Tutor.Tests\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem", "BankSystem\BankSystem.csproj", "{4DDDD0FC-F700-46C7-A7C0-A0A4EF516B99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonUtil", "JsonUtil\JsonUtil.csproj", "{4D21F9B5-17F7-469B-B77D-3EE9208A6513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonUtil", "JsonUtil\JsonUtil.csproj", "{4D21F9B5-17F7-469B-B77D-3EE9208A6513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdTutor", "CmdTutor\CmdTutor.csproj", "{363B9DAC-A865-4290-92F3-1261F40A64A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,6 +132,14 @@ Global
 		{4D21F9B5-17F7-469B-B77D-3EE9208A6513}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D21F9B5-17F7-469B-B77D-3EE9208A6513}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D21F9B5-17F7-469B-B77D-3EE9208A6513}.Release|x86.Build.0 = Release|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{363B9DAC-A865-4290-92F3-1261F40A64A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
